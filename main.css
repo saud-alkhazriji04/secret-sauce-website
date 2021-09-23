@@ -180,8 +180,8 @@ card layout
 }
 
 .card-container {
-    min-width: 167px;
     width: 45%;
+    min-width: 167px;
     margin-bottom: 1rem;
     background: #fff;
     border: 1px solid #707070;
