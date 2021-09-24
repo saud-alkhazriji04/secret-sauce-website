@@ -14,3 +14,20 @@ setInterval(function() {
     }
     images[imagePosition].classList.add('active')
 }, 2500)
+
+/*
+----
+drop down nav
+----
+*/
+const nav = document.getElementById('drop-down_nav');
+document.getElementById('drop-down').addEventListener('click', function() {
+    if (nav.classList.contains('side-bar')) {
+        nav.classList.remove('side-bar');
+        nav.classList.add('side-bar_active');
+        console.log('drop')
+    } else {
+        nav.classList.remove('side-bar_active');
+        nav.classList.add('side-bar');
+    }
+})

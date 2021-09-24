@@ -36,6 +36,11 @@ main {
 
 header {
     border-bottom: 2px solid #FC1D2A;
+    position: sticky;
+    top: 0;
+    background: #000000;
+    color: #FC1D2A;
+    z-index: 999999;
 }
 
 .flex {
@@ -282,14 +287,19 @@ bottom-part
 side-bar
 ----
 */
-
 .side-bar {
-    position: sticky;
+    display: none;
+}
+
+.side-bar_active {
+    opacity: 1;
+    position: fixed;
     background: #000000;
     color: #fff;
     padding: 0 0.7rem 1rem;
     text-align: center;
     height: 100vh;
+    z-index: 100000;
 }
 
 .side-bar ul {
@@ -417,3 +427,14 @@ active && disabled
 .primary-section_logo {
     display: none;
 }
+
+/* media query min-width 500px*/
+
+
+/*
+----
+drop down nav
+----
+*/
+
+

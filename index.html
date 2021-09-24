@@ -8,30 +8,71 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <main>
-        <header>
-            <div class="container flex">
-                <p>secret sauce</p>
 
-                <div class="nav-logo">
-                    <div class="nav-logo_stripe"></div>
-                    <div class="nav-logo_stripe"></div>
-                    <div class="nav-logo_stripe"></div>
+    <header>
+        <div class="container flex">
+            <p>secret sauce</p>
+
+            <div id="drop-down" class="nav-logo">
+                <div class="nav-logo_stripe"></div>
+                <div class="nav-logo_stripe"></div>
+                <div class="nav-logo_stripe"></div>
+            </div>
+            
+            <nav class="nav-bar">
+                <ul>
+                    <li class="nav-bar-items">order</li>
+                    <li class="nav-bar-items">location</li>
+                    <li class="nav-bar-items">about us</li>
+                    <li class="nav-bar-items">contact us</li>
+                </ul>
+
+                <p>sign in</p>
+            </nav>
+            
+        </div>
+    </header>
+
+    <main>
+        
+
+        <div id="drop-down_nav" class="side-bar">
+            <div class="side-bar_logo-container">
+                <img src="images/2021-06-27 (2)_LI.png" alt="secret sauce logo">
+            </div>
+            
+            <div class="side-bar_content-container">
+                <div class="btn-div">
+                    <button class="side-bar_btn">my cart</button>
+                    <button class="side-bar_btn side-bar_active-btn">menu</button>
                 </div>
-                
-                <nav class="nav-bar">
-                    <ul>
-                        <li class="nav-bar-items">order</li>
-                        <li class="nav-bar-items">location</li>
-                        <li class="nav-bar-items">about us</li>
-                        <li class="nav-bar-items">contact us</li>
+
+                <nav>
+                    <ul class="menu-cart_active">
+                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">beef burgers</a></li>
+                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">chicken burgers</a></li>
+                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">signature burgers</a></li>
+                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">anugus burgers</a></li>
+                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">value-burgers</a></li>
+                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">breakfast menu</a></li>
+                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">kids meal</a></li>
+                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">sides</a></li>
                     </ul>
 
-                    <p>sign in</p>
+                    <div class="more">
+                        <button class="sign-in_btn">sign in</button>
+
+                        <ul class="flex">                      
+                            <li class="nav-bar-items"><a href="#">order</a></li>
+                            <li class="nav-bar-items"><a href="#">location</a></li>
+                            <li class="nav-bar-items"><a href="#">about us</a></li>
+                            <li class="nav-bar-items"><a href="#">contact us</a></li>
+                        </ul>
+                    </div>
+
                 </nav>
-                
             </div>
-        </header>
+        </div>
 
         <section class="primary-section">
             <div class="container">
@@ -200,45 +241,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
-        </div>
-
-        <div class="side-bar">
-            <div class="side-bar_logo-container">
-                <img src="images/2021-06-27 (2)_LI.png" alt="secret sauce logo">
-            </div>
-            
-            <div class="side-bar_content-container">
-                <div class="btn-div">
-                    <button class="side-bar_btn">my cart</button>
-                    <button class="side-bar_btn side-bar_active-btn">menu</button>
-                </div>
-
-                <nav>
-                    <ul class="menu-cart_active">
-                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">beef burgers</a></li>
-                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">chicken burgers</a></li>
-                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">signature burgers</a></li>
-                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">anugus burgers</a></li>
-                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">value-burgers</a></li>
-                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">breakfast menu</a></li>
-                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">kids meal</a></li>
-                        <li class="side-bar_nav-list"><a href="#" class="side-bar_nav-list_link">sides</a></li>
-                    </ul>
-
-                    <div class="more">
-                        <button class="sign-in_btn">sign in</button>
-
-                        <ul class="flex">                      
-                            <li class="nav-bar-items"><a href="#">order</a></li>
-                            <li class="nav-bar-items"><a href="#">location</a></li>
-                            <li class="nav-bar-items"><a href="#">about us</a></li>
-                            <li class="nav-bar-items"><a href="#">contact us</a></li>
-                        </ul>
-                    </div>
-
-                </nav>
             </div>
         </div>
     </section>
