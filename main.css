@@ -126,7 +126,7 @@ ads-section
 
 .ads-section {
     padding: 1.5rem 0 5.5rem;
-    background-image: linear-gradient(to bottom, #fff 90%, #808080);
+    background-image: linear-gradient(to bottom, #fff 80%, #353434);
 }
 
 .carasual-container {
@@ -159,7 +159,7 @@ order-section
 */
 
 .order-section {
-    background: #808080;
+    background: #353434;
     padding: 2rem 1rem 5rem;
 }
 
@@ -255,7 +255,7 @@ bottom-part
     padding: 0 0 .5rem 0;
 }
 
-.price-active {
+.price {
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
@@ -413,14 +413,6 @@ active && disabled
 }
 
 .active {
-    display: block;
-}
-
-.price {
-    display: none;
-}
-
-.price-active {
     display: block;
 }
 
